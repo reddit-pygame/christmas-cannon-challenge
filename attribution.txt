@@ -1,0 +1,32 @@
+LICENSES
+
+CC-BY 3.0        http://creativecommons.org/licenses/by/3.0/legalcode
+CC-BY-SA 3.0   http://creativecommons.org/licenses/by-sa/3.0/legalcode
+CC-BY-NC 3.0  http://creativecommons.org/licenses/by-nc/3.0/
+CC0                 https://creativecommons.org/publicdomain/zero/1.0/legalcode
+OGA-BY-3.0     http://static.opengameart.org/OGA-BY-3.0.txt
+
+CODE
+
+All code is CC0-licensed.
+
+
+GRAPHICS
+
+Graphics are my own work (like you couldn't tell) and are CC0-licensed.
+
+
+SOUNDS
+
+File name: explosion.ogg
+Source: http://opengameart.org/content/single-and-multi-explosion
+Author:  http://www.marcelofernandezmusic.com
+License: CC-BY 3.0
+
+MUSIC
+
+File name: christmas-eve-at-midnight.ogg
+This file was converted from .mp3 to .ogg format
+Source: http://freemusicarchive.org/music/Lee_Rosevere/A_Happy_Puppy_Christmas/LeeRosevere_01_ChristmasEveAtMidnight
+Author:  Lee Rosevere  http://happypuppyrecords.ca/
+License: CC-BY-NC 3.0

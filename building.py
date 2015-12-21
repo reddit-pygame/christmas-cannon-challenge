@@ -93,6 +93,12 @@ class Building(pg.sprite.Sprite):
         self.has_gift = False
 
     def update(self, dt, gifts):
+        """
+        Update animations and check for collisions
+        with gifts. Because of the high movement rate of gifts,
+        a rect that covers the area between the gift's current
+        and former positions is alos checked.
+        """        
         self.animations.update(dt)
         for gift in gifts:
             if self.big_cap.colliderect(gift.rect):
@@ -136,7 +142,6 @@ class Building(pg.sprite.Sprite):
         self.interior = self.bright_interior
         for window in self.windows:
             window.light_up()
-        
         self.make_image()
 
         

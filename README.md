@@ -30,9 +30,9 @@ Note that the distance travelled on the y-axis is subtracted from the initial y-
 
 Hint: You can use angles.project to find the initial x and y velocities
 
-Suggested values:
+Suggested values (or what I used, at least):
 
-GRAVITY = -9.8 (this is the actual acceleration of gravity in meters/second^2, however, it is positive due to the inverted y-axis)
+GRAVITY = 9.8 (this is the actual acceleration of gravity in meters/second^2, however, it is positive due to the inverted y-axis)
 
 Cannon.firing_speed = 125 
 

@@ -3,7 +3,7 @@
 Use your Christmas Cannon to deliver gifts by shooting them into chimneys. This challenge focuses on calculating the trajectory of a projectile over time. The provided code handles rotation/aiming the cannon and chimney-gift collisions.
 
 
-Github repo: https://github.com/reddit-pygame/christmas-cannon-challenge
+Challenge thread: https://www.reddit.com/r/pygame/comments/3xpi6t/challenge_christmas_cannon/
 
 #How It Works
 

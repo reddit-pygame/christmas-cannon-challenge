@@ -1,8 +1,13 @@
-#Gift Cannon
+#Christmas Cannon Challenge
 
-Use your Christmas Cannon to deliver gifts by shooting them into chimneys. This challenge focuses on calculating the trajectory of a projectile. The provided code handles rotation/aiming the cannon and chimney-gift collisions.
+Use your Christmas Cannon to deliver gifts by shooting them into chimneys. This challenge focuses on calculating the trajectory of a projectile over time. The provided code handles rotation/aiming the cannon and chimney-gift collisions.
+
+
+Github repo: https://github.com/reddit-pygame/christmas-cannon-challenge
 
 #How It Works
+
+Run main.py to launch the game.
 
 ###Collisions
 
@@ -21,7 +26,7 @@ Because of the high speed of gifts, it's possible for a gift to pass through a c
 
 #Challenge
 
-Calculate the trajectory of Gift objects launched from the Candy Cane Cannon using the following formulas:
+Calculate the trajectory of Gift objects launched from the Christmas Cannon using the following formulas:
 
 x = initial_x_position + (initial_x_velocity * time_elapsed)
 y = initial_y_position - (initial_y_velocity * time_elapsed) - (.5 * GRAVITY * time_elapsed**2)

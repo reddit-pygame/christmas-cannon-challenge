@@ -28,7 +28,7 @@ class Firework(pg.sprite.Sprite):
         angles =  [.125 * x * pi for x in range(16)]
         duration = randint(750, 1500)
         distance =randint(150, 300)
-        for angle in angles: 
+        for angle in angles:
             destination = project(self.rect.center, angle, distance)
             dest = int(destination[0]), int(destination[1])
             shot = FireworkShot(self.rect.center, self.color, fireworks, all_sprites)
@@ -39,8 +39,8 @@ class Firework(pg.sprite.Sprite):
             fade.start(shot)
             animations.add(move, fade)
         self.kill()
-        
-            
+
+
 class FireworkShot(pg.sprite.Sprite):
     """A firework particle that fades out."""
     def __init__(self, pos, color, *groups):
@@ -50,11 +50,11 @@ class FireworkShot(pg.sprite.Sprite):
         self.rect = self.image.get_rect(center=pos)
         self.alpha = 255
         self.last_alpha = self.alpha
-        
+
     def update(self):
         if self.last_alpha != self.alpha:
             self.image.set_alpha(self.alpha)
         self.last_alpha = self.alpha
-        
-        
-        
+
+
+

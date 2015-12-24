@@ -1,4 +1,4 @@
-from math import degrees, pi, cos, sin
+from math import degrees, pi
 import pygame as pg
 
 import prepare
@@ -14,7 +14,7 @@ class Cannon(pg.sprite.Sprite):
         self.base_rect = self.turret_base.get_rect(midbottom=midbottom)
         self.barrel = prepare.GFX["cane-cannon"]
         self.fire_speed = 125
-        
+
     def fire(self):
         """
         Return a Gift object positioned at the end of the cannon barrel.
@@ -22,7 +22,7 @@ class Cannon(pg.sprite.Sprite):
         prepare.SFX["explosion"].play()
         pos = project(self.base_rect.center, self.angle, 38)
         return Gift(pos, self.angle, self.fire_speed)
-        
+
     def update(self, mouse_pos):
         """
         Set self.angle to the angle to the mouse unless mouse is underneath
@@ -48,5 +48,3 @@ class Cannon(pg.sprite.Sprite):
         self.rect = self.image.get_rect(center=self.base_rect.center)
         self.barrel_rect = barrel_rect
         self.barrel_rect.center = self.base_rect.center
-        
-

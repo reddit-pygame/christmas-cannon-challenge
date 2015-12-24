@@ -29,6 +29,7 @@ Because of the high speed of gifts, it's possible for a gift to pass through a c
 Calculate the trajectory of Gift objects launched from the Christmas Cannon using the following formulas:
 
 x = initial_x_position + (initial_x_velocity * time_elapsed)
+
 y = initial_y_position - (initial_y_velocity * time_elapsed) - (.5 * GRAVITY * time_elapsed**2)
 
 Note that the distance travelled on the y-axis is subtracted from the initial y-position because the screen's y-axis is inverted.
